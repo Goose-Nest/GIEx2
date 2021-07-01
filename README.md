@@ -1,5 +1,5 @@
 # GIEx2
-An experimental injection method using `NODE_OPTIONS` via an Electron security bypass.
+An experimental injection method using `NODE_OPTIONS` via an Electron security bypass (Linux only, possibly Windows in future if demand).
 
 ## Method
 GIEx2 is injected via `NODE_OPTIONS`. This is usually disabled in packaged production Electron apps, but we found a bypass. The way Electron checks if the app is packaged is by checking the binary name.
